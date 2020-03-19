@@ -72,7 +72,7 @@ export default class InfoPage extends Component {
             </p>
             <ul>
                 <li>Stablecoins:&nbsp;
-                    <a href="https://makerdao.com/dai/" target="_blank">DAI</a>,&nbsp;
+                    <a href="https://makerdao.com/sai/" target="_blank">SAI</a>,&nbsp;
                     <a href="https://www.trusttoken.com/trueusd/" target="_blank">TUSD</a>,&nbsp;
                     <a href="https://www.coinbase.com/usdc" target="_blank">USDC</a>,&nbsp;
                     <a href="https://gemini.com/dollar/" target="_blank">GUSD</a>, ...
