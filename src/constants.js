@@ -38,7 +38,7 @@ export const confirmationsToWait = 1;
 
 export const demoTokens = [
     "USD",
-    "DAI",
+    "SAI",
     "DREAM",
     "BAT"
 ];
