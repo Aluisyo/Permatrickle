@@ -18,7 +18,7 @@ export async function getTokenSymbol (address) {
     try {
         return await (await getTokenContract(address)).symbol();
     } catch (e) {
-        // Crutch for DAI Token: https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359
+        // Crutch for SAI Token: https://etherscan.io/token/0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359
         // They've defined symbol as "bytes32" but not "string"...
         const abi = cloneDeep(tokenContractAbi).map((item) => {
             if (item.name === "symbol") {
