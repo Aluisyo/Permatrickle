@@ -1,11 +1,12 @@
 {
-  "name": "trickle-dapp-frontend",
+  "name": "permatrickle",
   "version": "1.0.4",
+  "homepage": "./",
   "description": "Your hourly pay, cryptographically secured.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "build": "PUBLIC_URL='./' webpack --mode production"
   },
   "repository": {
     "type": "git",
