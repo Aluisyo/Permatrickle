@@ -7,7 +7,7 @@ import {
     agreementPagePath, confirmAgreementPagePath, createAgreementPagePath, loadingPagePath, myAgreementsPagePath,
     infoPagePath
 } from "../constants";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import IndexPage from "./pages/Index";
 import CreateAgreement from "./pages/CreateAgreement";
 import ConfirmAgreement from "./pages/ConfirmAgreement";
